@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eating Disorders</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/87b6d6c61f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<section class="sub-header">
+        
+    <nav>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sources.html">RESOURCES</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <h1>Resources</h1>
+
+</section>
+
+<!--resources content-->
+
+
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <h3>NEDA Hotline</h3>
+            <div>
+                <span>
+                    <h5>NEDA Crisis Text Line</h5>
+                    <p>Text "NEDA" to 741741</p>
+                </span>
+            </div>
+            <div>
+                <span>
+                    <h5>(800) 931-2237</h5>
+                    <p>NEDA Hotline</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <h3>Web Resources</h3>
+            <div class="link1">
+                <h5>Learn About Eating Disorders:</h5>
+                <a href=">https://www.nationaleatingdisorders.org/">www.nationaleatingdisorders.org</a>
+            </div>
+            
+            <div class="link2">
+                <h5>Find Support Groups:</h5>
+                <a href="https://www.allianceforeatingdisorders.com/eating-disorder-support-groups-and-programs/">www.allianceforeatingdisorders.com</a>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+
+<section class="footer">
+    <div class="icons">
+        <i class="fa fa-heart"></i>
+    </div>
+</section>
+
+
+<!--Javascript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

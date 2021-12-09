@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eating Disorders</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/87b6d6c61f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+<section class="header">
+        
+    <nav>
+        <a href="index.html"><img src="img/heart-logo.png" alt=""></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sources.html">RESOURCES</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    
+    <div class="text-box">
+        <h1>Eating Disorders</h1>
+        <p>A Project for Imagining Justice Made by Belle Seabury</p>
+        <a href="" class="hero-btn">TW: The content in this website may be triggering to those who have experienced or know someone who has experienced an eating disorder.</a>
+    </div>
+
+</section>
+<!--most common eating disorders-->
+<section class="courses">
+    <h1>Most Common Eating Disorders</h1>
+    <p>These are the three most common types of eating disorders, however there are many more. </p>
+    <div class="row">
+        <div class="courses-col">
+            <h3>Anorexia Nervosa</h3>
+            <p>Anorexia nervosa involves an intense fear or delusions of gaining weight, and most of the time involves some type of restriction in calories or kinds of food. Many times this includes severe weight loss, but not everyone who suffers from anorexia experiences this.</p>
+        </div>
+        <div class="courses-col">
+            <h3>Bulimia Nervosa</h3>
+            <p>Bulimia nervosa is usually characterized as a cycle that involves binge eating and purging in some way to "make up" for the binge. Just like anorexia, anyone can suffer from bulimia and it does not always involve a drastic change in weight.</p>
+        </div>
+        <div class="courses-col">
+            <h3>Binge Eating</h3>
+            <p>Binge eating disorder is the most common eating disorder in the United States. This usually involves episodes of eating a large amount of food in a short amount of time. Unlike bulimia nervosa, binge eating disorder usually does not involve purging after a binge. </p>
+        </div>
+    </div>
+
+</section>
+
+<div class="mirror-img">
+    <img src="img/mirror.jpg" alt="">
+</div>
+
+    
+<!--what to do if someone is struggling-->
+
+<section class="facilities">
+    <h1>What to do if You Think Someone You Know Has an Eating Disorder</h1>
+    <p>Below are three things you can do to help a friend or a loved one who is currently suffering from an eating disorder.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/listen.jpeg">
+            <h3>Listen</h3>
+            <p>Give them your time and be there for them to listen. Do not try and criticize or give them an ultimatum, as they are probably already experiencing a lot of self-criticism.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/learning.jpg">
+            <h3>Educate Yourself</h3>
+            <p>Learning more and researching your friend's eating disorder is important so that you can better support them. By learning more, you can also avoid making generalizations or other statements that might hurt your friend.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/doctor.jpg">
+            <h3>Encourage Help</h3>
+            <p>If possible, reassure them that professional help is available and is the best option for treating eating disorders. If they decide to seek help, offer to go with them to their first appointment to show your support.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--resources-->
+
+<section class="cta">
+    <h1>Additional Resources<br>Can be Found Here:</h1>
+    <a class="hero-btn" href="sources.html">RESOURCES</a>
+</section>
+
+<!--footer-->
+
+<section class="footer">
+    <h4>Belle Seabury</h4>
+    <div class="icons">
+        <i class="fa fa-heart"></i>
+    </div>
+</section>
+
+
+<!--Javascript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
